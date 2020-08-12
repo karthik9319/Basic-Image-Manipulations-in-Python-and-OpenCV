@@ -21,3 +21,8 @@ m = cv2.getRotationMatrix2D(center, 180, 1.0)
 rotated = cv2.warpAffine(image, m, (w,h))
 cv2.imshow("rotated", rotated)
 cv2.waitKey(0)
+
+#cropping image 
+cropped = image[70:170, 440:540]
+cv2.imshow("cropped", cropped)
+cv2.waitKey(0)
