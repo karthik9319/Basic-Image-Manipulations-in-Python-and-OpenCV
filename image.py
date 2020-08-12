@@ -26,3 +26,6 @@ cv2.waitKey(0)
 cropped = image[70:170, 440:540]
 cv2.imshow("cropped", cropped)
 cv2.waitKey(0)
+
+#saving cropped image to disk
+cv2.imwrite("cropped.jpg", cropped)
