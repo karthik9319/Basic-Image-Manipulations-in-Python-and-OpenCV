@@ -29,3 +29,4 @@ cv2.waitKey(0)
 
 #saving cropped image to disk
 cv2.imwrite("cropped.jpg", cropped)
+print("Done")
